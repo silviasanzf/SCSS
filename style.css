@@ -12,9 +12,47 @@
 }
 
 @font-face {
-        font-family: 'Aniron';
-        src:('police/anicb__.ttf');
-    }
+    font-family: 'anironcbold';
+    src: url('police/anicb___-webfont.woff2') format('woff2'),
+         url('police/anicb___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'anironregular';
+    src: url('police/anirm___-webfont.woff2') format('woff2'),
+         url('police/anirm___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'anironcregular';
+    src: url('anicm___-webfont.woff2') format('woff2'),
+         url('anicm___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'anironbold';
+    src: url('anirb___-webfont.woff2') format('woff2'),
+         url('anirb___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
  .container{
      background-image: url("media/bg_light.png");
      width: 100%;
@@ -124,7 +162,7 @@ opacity: 1;
       background-color:rgb(189, 56, 8);    
     }  
     .nav-item, .navbar-brand {
-        font-family: 'Aniron';
+        font-family: 'anironregular';
         }
                
     
@@ -151,7 +189,7 @@ height: 240px;
 font-size:15px; 
 margin-top: 5px; 
 margin-left:10 px;
-font-family: 'Aniron';
+font-family: 'anironregular';
 }
 
 #gimli{
@@ -185,14 +223,14 @@ right:20px;
 }
 
  h5{
-    font-family:'Aniron';   
+    font-family:'anironregular';   
 }
 h2, h6, h3, p{
     font-family:'partybusiness';
 }
 h1{
 font-size:30px;
-font-family:'Aniron';
+font-family:'anironregular';
 margin-left: 12px;
 }
 div.a {
