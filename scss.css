@@ -1,0 +1,41 @@
+@mixin ring ($width, $height, $border-width, $border-color) {
+    width:$width;
+    height:$height;
+    border-width:$border-width;
+    border-color:$border-color;
+    border-radius: 50%;
+    background: none;
+    margin: auto;
+    border-style:solid;
+    box-shadow: 5px 5px 3px lighten($border-color,30);
+}
+
+.ring1 {
+@include ring(50px, 50px, 2px, orangered);
+}
+.ring2 {
+@include ring(100px, 100px, 10px, #ffd718);
+}
+
+
+@for $i from 1 through 6 {
+    .ring-#{$i}{
+        width: 50px*($i/3+1.5);
+        height: 50px*($i/3+1.5);
+        border-width: 2px*$i;
+        border-color:gray;
+        border-radius: 50%;
+        background: none;
+
+        border-style: solid;
+        box-shadow: 5px 5px 3px lighten(gray,30);
+        margin-left: 200px*($i/3+1.017);
+        position:relative;
+        z-index: 1;
+        position: absolute;
+
+    }
+
+
+
+}

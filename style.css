@@ -1,4 +1,126 @@
-      /* Make the image fully responsive - regle hauteur et lageur */
+.ring1 {
+    width: 50px;
+    height: 50px;
+    border-width: 2px;
+    border-color: orangered;
+    border-radius: 50%;
+    background: none;
+    margin: auto;
+    border-style: solid;
+    box-shadow: 5px 5px 3px #ffb599;
+}
+
+.ring2 {
+    width: 100px;
+    height: 100px;
+    border-width: 10px;
+    border-color: #ffd718;
+    border-radius: 50%;
+    background: none;
+    margin: auto;
+    border-style: solid;
+    box-shadow: 5px 5px 3px #fff1b1;
+}
+
+.ring-1 {
+    width: 91.6666666667px;
+    height: 91.6666666667px;
+    border-width: 2px;
+    border-color: gray;
+    border-radius: 50%;
+    background: none;
+    border-style: solid;
+    box-shadow: 5px 5px 3px #cdcdcd;
+    margin-left: 270.0666666667px;
+    position: relative;
+    z-index: 1;
+    position: absolute;
+}
+
+.ring-2 {
+    width: 108.3333333333px;
+    height: 108.3333333333px;
+    border-width: 4px;
+    border-color: gray;
+    border-radius: 50%;
+    background: none;
+    border-style: solid;
+    box-shadow: 5px 5px 3px #cdcdcd;
+    margin-left: 336.7333333333px;
+    position: relative;
+    z-index: 1;
+    position: absolute;
+}
+
+.ring-3 {
+    width: 125px;
+    height: 125px;
+    border-width: 6px;
+    border-color: gray;
+    border-radius: 50%;
+    background: none;
+    border-style: solid;
+    box-shadow: 5px 5px 3px #cdcdcd;
+    margin-left: 403.4px;
+    position: relative;
+    z-index: 1;
+    position: absolute;
+}
+
+.ring-4 {
+    width: 141.6666666667px;
+    height: 141.6666666667px;
+    border-width: 8px;
+    border-color: gray;
+    border-radius: 50%;
+    background: none;
+    border-style: solid;
+    box-shadow: 5px 5px 3px #cdcdcd;
+    margin-left: 470.0666666667px;
+    position: relative;
+    z-index: 1;
+    position: absolute;
+}
+
+.ring-5 {
+    width: 158.3333333333px;
+    height: 158.3333333333px;
+    border-width: 10px;
+    border-color: gray;
+    border-radius: 50%;
+    background: none;
+    border-style: solid;
+    box-shadow: 5px 5px 3px #cdcdcd;
+    margin-left: 536.7333333333px;
+    position: relative;
+    z-index: 1;
+    position: absolute;
+}
+
+.ring-6 {
+    width: 175px;
+    height: 175px;
+    border-width: 12px;
+    border-color: gray;
+    border-radius: 50%;
+    background: none;
+    border-style: solid;
+    box-shadow: 5px 5px 3px #cdcdcd;
+    margin-left: 603.4px;
+    position: relative;
+    z-index: 1;
+    position: absolute;
+}
+h1{
+    margin-top: 40px;
+    font-size:25px;
+    font-family:'anironregular';
+    text-align: center;
+}
+
+
+
+
     @font-face {font-family:"Tengwar Annatar Italic";
         src:url("police/tngani.eot?") format("eot"),
         url("police/tngani.woff") format("woff"),
@@ -58,104 +180,7 @@
      width: 100%;
  } 
 
-#darkV{
-    height:auto;
-    width:100%;
-    display:block;
-}
 
-#SF{
-    height:auto;
-    width:100%;
-    display:block;
-}
-#SF2{
-    height:auto;
-    width:100%;
-    display:block;
-}
-  #most{
-     color:gray; 
-  }
-
-  #most1{
-    color:gray;
-  }
-  #most2{
-    color:gray;
-  }
-
-
-
-
-
-
-  #rappel{
-    font-family:'Tengwar Annatar Italic';
-    opacity: 0; }
-    #rappel1{
-        font-family:'Tengwar Annatar Italic';
-        opacity: 0; }
-        #rappel2{
-            font-family:'Tengwar Annatar Italic';
-            opacity: 0; }
-            #rappel3{
-                font-family:'Tengwar Annatar Italic';
-                opacity: 0; }
-                #rappel4{
-                    font-family:'Tengwar Annatar Italic';
-                    opacity: 0; }
-                    #rappel5{
-                        font-family:'Tengwar Annatar Italic';
-                        opacity: 0; }
-    
-
-  #most:hover
-  {
-  color: orangered;
-  text-decoration:underline orangered;    
-    }
-    #most1:hover
-  {
-  color: orangered;
-  text-decoration:underline orangered;    
-    }
-    #most2:hover
-    {
-    color: orangered;
-    text-decoration:underline orangered;    
-      }       
-#most:hover
-#rappel
-  {
-opacity: 1;
-  }
-  #most:hover
-  #rappel1
-  {
-opacity: 1;
-  }
-  #most1:hover
-  #rappel2
-  {
-opacity: 1;
-  }
-  #most1:hover
-  #rappel3
-  {
-opacity: 1;
-  }
-  #most2:hover
-  #rappel4
-  {
-opacity: 1;
-  }
-  #most2:hover
-  #rappel5
-  {
-opacity: 1;
-  }
-    
   
   
       .bg-navbar{
@@ -175,158 +200,21 @@ opacity: 1;
          
     }
     
-.carousel-inner img {
-width: 100%;
-height: 240px;
-}
+
 
 
 
    
 
     
-#soustextstyle {
-font-size:15px; 
-margin-top: 5px; 
-margin-left:10 px;
-font-family: 'anironregular';
-}
-
-#gimli{
-text-decoration:line-through orangered;
 
 
-}
-#puces {
-    font-size:30px;
-    font-family:'Tengwar Annatar Italic';
-    margin-left: 12px; 
-    color: orangered;
-}
-#puces1 {
-    font-size:30px;
-    font-family:'Tengwar Annatar Italic';
-    margin-left: 12px; 
-    color: orangered;
-}
 
-#dead {
-    font-family:'partybusiness'; 
-    color: orangered;
-font-size:2em;
-text-align: center;
-text-align: center;
-position:absolute;
-top: 15px;
-left: 20px; 
-right:20px; 
-}
 
- h5{
-    font-family:'anironregular';   
-}
-h2, h6, h3, p{
-    font-family:'partybusiness';
-}
-h1{
-font-size:30px;
-font-family:'anironregular';
-margin-left: 12px;
-}
-div.a {
-    white-space: wrap; 
-    background: white;
-    width: 100%; 
-    height:100px;
-    overflow: scroll;
-    text-overflow:ellipsis;
-    border: 1px solid hsl(0, 100%, 100%);
-}
 
-div.a:hover {
-    overflow: scroll;
-}
-table
-{
-    width:100%;
-}
-td, th /* Toutes les cellules des tableaux... */
 
-{
-    
-    border: 1px solid gray; /* auront une bordure de 1px */
 
-}
-#ring
-{
-    width:100%;
-    }
-#basPage
-{background: goldenrod;
-}
 
-.card-body{
-    background-color: black;
-}
 
-.card{
-    border-width:2px;
- border-style:solid;
- border-color:black;
-}
 
-.card-text{
-    font-size: 1.7em;
-    color:white;
-}
 
-.card-img-top
-{
-opacity: 0.6;
-z-index:1,
-}
-h2
-{
-color:black;
-font-size:1.3em;
-text-align: center;
-border-radius: 10px;
-background-color: rgba(255,255,255,0.6);
-position:absolute;
-top: 15px;
-left: 20px; 
-right:20px; 
-}
-span
-{
-color:orangered;
-}
-h6
-{
-color:white;
-font-size:3em;
-top: 220px;
-left: 80px; 
-right:20px; 
-position: absolute;
-}
-.card:hover
-.card-img-top
-{
-opacity: 1
-}
-.card:hover
-h2
-{
-opacity: 0
-}
-.card:hover
-h6
-{
-    color: white;
-    font-size:1em;
-    top: 300px;
-    left:100px; 
-    right:20px; 
-    position: absolute;
-}
